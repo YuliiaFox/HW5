@@ -3,7 +3,7 @@ package model;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Airline implements Comparable<Airplane> {
+public class Airline {
     private int numOfBoeing777;
     private int numOfAirbusA380;
     private List<Airplane> airplaneList = new ArrayList<>();
@@ -23,8 +23,5 @@ public class Airline implements Comparable<Airplane> {
         }
     }
 
-    @Override
-    public int compareTo(Airplane o) {
-        return 0;
-    }
+
 }
