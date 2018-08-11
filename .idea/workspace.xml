@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="023f7a9c-f3e9-442a-a08f-e6db6d236b3e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/src/model/Airline.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Airline.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Airplane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Airplane.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,8 +37,8 @@
       <file leaf-file-name="Airline.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/model/Airline.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="390">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -79,7 +80,6 @@
         <option value="$PROJECT_DIR$/src/Model/Boeing777.java" />
         <option value="$PROJECT_DIR$/src/model/initParamsBoeing.json" />
         <option value="$PROJECT_DIR$/src/model/InitParams.java" />
-        <option value="$PROJECT_DIR$/src/model/Airplane.java" />
         <option value="$PROJECT_DIR$/src/model/Boeing777.java" />
         <option value="$PROJECT_DIR$/src/model/CivilAirplane.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
@@ -88,6 +88,7 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/model/AirplaneFactory.java" />
         <option value="$PROJECT_DIR$/src/model/Airline.java" />
+        <option value="$PROJECT_DIR$/src/model/Airplane.java" />
       </list>
     </option>
   </component>
@@ -243,12 +244,12 @@
       <updated>1533807355456</updated>
       <workItem from="1533807362658" duration="11219000" />
       <workItem from="1533891515870" duration="3131000" />
-      <workItem from="1533897678523" duration="2609000" />
+      <workItem from="1533897678523" duration="2916000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16959000" />
+    <option name="totallyTimeSpent" value="17266000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="821" extended-state="0" />
@@ -465,15 +466,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/model/Airplane.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="24" lean-forward="true" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        <state relative-caret-position="210">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#346#347#0" expanded="true" />
+            <element signature="e#414#415#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/model/Airline.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="390">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

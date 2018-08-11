@@ -1,6 +1,6 @@
 package model;
 
-public abstract class Airplane {
+public abstract class Airplane  implements Comparable<Airplane> {
     private double rangeOfFlight;
 
     public Airplane(double rangeOfFlight) {
@@ -11,5 +11,8 @@ public abstract class Airplane {
         return rangeOfFlight;
     }
 
-
+    @Override
+    public int compareTo(Airplane airplane) {
+        return Double.compare(this.rangeOfFlight, airplane.rangeOfFlight);
+    }
 }
