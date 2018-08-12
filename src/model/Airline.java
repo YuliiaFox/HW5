@@ -12,10 +12,10 @@ public class Airline {
     public Airline(int numOfBoeing777, int numOfAirbusA380) {
         this.numOfBoeing777 = numOfBoeing777;
         this.numOfAirbusA380 = numOfAirbusA380;
-        addAirplane();
+        initAirplanes();
     }
 
-    private void addAirplane() {
+    private void initAirplanes() {
         for (int i = 0; i < numOfAirbusA380; i++) {
             airplaneList.add(AirplaneFactory.createAirbusA380());
         }
@@ -56,4 +56,7 @@ public class Airline {
         return foundAirplanes;
     }
 
+    public List<CivilAirplane> getAirplaneList() {
+        return airplaneList;
+    }
 }
