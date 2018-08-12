@@ -29,15 +29,15 @@ public class Airline {
         return airplaneList;
     }
 
-    public double calcTotalCapacity(){
+    public double calcTotalCapacity() {
         double totalCapacity = 0;
         for (CivilAirplane civilAirplane : airplaneList) {
-            totalCapacity+= civilAirplane.getCapacity();
+            totalCapacity += civilAirplane.getCapacity();
         }
         return totalCapacity;
     }
 
-    public double calcTotalCarryingCapacity(){
+    public double calcTotalCarryingCapacity() {
         double totalCarryingCapacity = 0;
         for (CivilAirplane civilAirplane : airplaneList) {
             totalCarryingCapacity += civilAirplane.getCarryingCapacity();
@@ -45,11 +45,11 @@ public class Airline {
         return totalCarryingCapacity;
     }
 
-    public List<CivilAirplane> findAirplane(double rangeOfFlight, double capacity, double carryingCapacity){
+    public List<CivilAirplane> findAirplane(double rangeOfFlight, double capacity, double carryingCapacity) {
         List<CivilAirplane> foundAirplanes = new ArrayList<>();
         for (CivilAirplane civilAirplane : airplaneList) {
-            if(civilAirplane.getCapacity() == capacity && civilAirplane.getCarryingCapacity() == carryingCapacity &&
-                    civilAirplane.getRangeOfFlight() == rangeOfFlight){
+            if (civilAirplane.getCapacity() == capacity && civilAirplane.getCarryingCapacity() == carryingCapacity &&
+                    civilAirplane.getRangeOfFlight() == rangeOfFlight) {
                 foundAirplanes.add(civilAirplane);
             }
         }

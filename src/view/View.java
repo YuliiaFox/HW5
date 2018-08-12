@@ -17,8 +17,8 @@ public class View {
         System.out.println("Enter menu number:");
     }
 
-    public static void showInvalidDataMessage() {
-        System.out.println("Invalid menu number. Enter again:");
+    public static void askToContinuation() {
+        System.out.println("Do you want to continue? Y/N");
     }
 
     public static void showCalcCapacityResult(double capacity, double carryingCapacity) {
@@ -26,16 +26,21 @@ public class View {
         System.out.println("Total carrying capacity: " + carryingCapacity);
     }
 
-    public static void showSortedAirplaneList(List<CivilAirplane> airplaneList){
+    public static void showSortedAirplaneList(List<CivilAirplane> airplaneList) {
         for (CivilAirplane airplane : airplaneList) {
             System.out.println(airplane.toString());
         }
     }
-    public static void askForParams(){
+
+    public static void showAirplanesNotFound() {
+        System.out.println("Airplanes with such parameters were not found");
+    }
+
+    public static void askForParams() {
         System.out.println("Enter range of flight, capacity and carrying capacity:");
     }
 
-    public static void showFoundAirplanes(List<CivilAirplane> foundAirplane){
+    public static void showFoundAirplanes(List<CivilAirplane> foundAirplane) {
         System.out.println("Found airplanes:");
         for (CivilAirplane civilAirplane : foundAirplane) {
             System.out.println(civilAirplane.toString());

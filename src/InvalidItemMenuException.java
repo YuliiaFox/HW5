@@ -1,5 +1,5 @@
 public class InvalidItemMenuException extends Exception {
-    public InvalidItemMenuException(String message, Throwable cause) {
-        super(message, cause);
+    public InvalidItemMenuException(String message) {
+        super(message);
     }
 }

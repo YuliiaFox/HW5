@@ -1,6 +1,6 @@
 package model;
 
-public abstract class Airplane  implements Comparable<Airplane> {
+public abstract class Airplane implements Comparable<Airplane> {
     private double rangeOfFlight;
 
     public Airplane(double rangeOfFlight) {

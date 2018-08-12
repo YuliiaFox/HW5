@@ -1,6 +1,13 @@
 package model;
 
+import com.google.gson.Gson;
+
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+
 public abstract class CivilAirplane extends Airplane {
+
     private double capacity;
     private double carryingCapacity;
 
@@ -26,4 +33,6 @@ public abstract class CivilAirplane extends Airplane {
                 ", carryingCapacity=" + carryingCapacity +
                 '}';
     }
+
+
 }
