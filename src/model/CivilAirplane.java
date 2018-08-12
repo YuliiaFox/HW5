@@ -18,4 +18,12 @@ public abstract class CivilAirplane extends Airplane {
         return carryingCapacity;
     }
 
+    @Override
+    public String toString() {
+        return "{ " + this.getClass().getSimpleName() +
+                ", rangeOfFlight=" + getRangeOfFlight() +
+                ", capacity=" + capacity +
+                ", carryingCapacity=" + carryingCapacity +
+                '}';
+    }
 }
